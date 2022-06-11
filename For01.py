@@ -9,4 +9,4 @@ def main(n):
     Returns:
         list: return  answer
     """
-    return
+    return [x for x in range(n)]
