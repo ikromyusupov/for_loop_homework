@@ -7,4 +7,4 @@ def main(k,n):
     Returns:
         list: return  answer
     """
-    return
+    return [k for x in range(n)]
