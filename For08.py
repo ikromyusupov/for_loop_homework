@@ -6,7 +6,4 @@ def main(N):
     Returns:
         float: return  answer
     """
-    s = 0
-    for i,j in range(N):
-        s+=i/j
-    return s
+    return sum(1/x for x in range(1,N+1))
